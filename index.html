@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>with love, aditi</title>
+</head>
+<body style="background-color: lightblue;">
+    <h1 style="text-align: center;"><i>from the bottom of my heart to wherever in the world you currently are:]</i></h1>
+
+    <form id="nameForm">
+        <label for="name" style="font-size: 24px;">Please enter your name!:</label>
+        <input type="text" id="name" name="name" placeholder="Your name here" style="width: 300px; height: 30px; font-size: 18px;">
+        <button type="submit">Submit</button>
+    </form>
+    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2225%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAHGDSAp-xg/j4_DRiZRMB5Q34exaMXcbQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHGDSAp-xg&#x2F;j4_DRiZRMB5Q34exaMXcbQ&#x2F;view?utm_content=DAHGDSAp-xg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a> by Aditi Keertani
+    <script>
+        document.getElementById('nameForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value.trim().toLowerCase();
+            if (name === 'priyanka') {
+                window.location.href = 'priyanka.html';
+            } else if (name === 'raj') {
+                window.location.href = 'raj.html';
+            } else {
+                window.location.href = 'default.html';
+            }
+        });
+    </script>
+</body>
+</html>
+
